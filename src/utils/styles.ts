@@ -14,8 +14,16 @@ export const spacings = {
 };
 
 export const fonts = {
-    primary: 'serif',
-    secondary: 'sans-serif',
+    primary: "'Source Serif Pro', serif",
+    secondary: "'Raleway', sans-serif",
+};
+
+export const colors = {
+    green: '#0CECDD',
+    yellow: '#FFF338',
+    pink: '#FF67E7',
+    purple: '#C400FF',
+    white: '#ffffff',
 };
 
 // Range Helper

@@ -2,6 +2,7 @@ import { AppProps } from 'next/app';
 import Head from 'next/head';
 import React from 'react';
 import { createGlobalStyle } from 'styled-components';
+import { colors, fonts } from 'utils/styles';
 
 const GlobalStyle = createGlobalStyle`
      html {
@@ -12,8 +13,8 @@ const GlobalStyle = createGlobalStyle`
     body {
         width: 100%;
         margin: 0;
-        color: hotpink;
-        font-family: 'MS Comic Sans';
+        background-color: ${colors.pink};
+        font-family: ${fonts.primary};
     }
 
     *,
@@ -30,6 +31,16 @@ function MyApp({ Component, pageProps }: AppProps) {
                 <meta
                     name="viewport"
                     content="width=device-width, initial-scale=1"
+                />
+                <link rel="preconnect" href="https://fonts.googleapis.com" />
+                <link
+                    rel="preconnect"
+                    href="https://fonts.gstatic.com"
+                    crossOrigin=""
+                />
+                <link
+                    href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Source+Serif+Pro:wght@300;600&display=swap"
+                    rel="stylesheet"
                 />
             </Head>
             <GlobalStyle />
