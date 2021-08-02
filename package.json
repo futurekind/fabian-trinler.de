@@ -1,6 +1,6 @@
 {
-    "name": "bakerman",
-    "version": "1.5.2",
+    "name": "fabian-trinler.de",
+    "version": "0.1.0",
     "description": "",
     "scripts": {
         "storybook": "start-storybook -p 9000 -c .storybook",
@@ -19,11 +19,8 @@
             "pre-push": "yarn tc"
         }
     },
-    "author": "",
+    "author": "Fabian Trinler <f.trinler@gmail.com>",
     "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/blateral/bakerman.js/issues"
-    },
     "homepage": "https://github.com/blateral/bakerman.js#readme",
     "dependencies": {
         "@babel/core": "7.14.8",
